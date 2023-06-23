@@ -13,25 +13,26 @@
 
 
 
-/*-------DEBUG---------*/
-
-.debug{
-
-    background-color: aqua;
-    border: 3px dashed red;
+.simon-says-display{
+    width: 400px;
+    margin: 1rem auto;
 }
 
-.debug header{
-    background-color: goldenrod;
-    border: 3px dotted green;
+.simon-says-display > *{
+    text-align: center;
+    display: inline-block;
+
+    padding: 2rem;
+    color: red;
+    background-color: black;
+
 }
 
-.debug main{
-    background-color: crimson;
-    border: 3px solid blue;
+.timer{
+    width: 5rem;
+    margin-left: auto;
 }
 
-.debug footer{
-    background-color: darkorange;
-    border: 3px dashed blueviolet;
+.simon-says-display.hide{
+    display: none;
 }
