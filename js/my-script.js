@@ -27,7 +27,7 @@ function stringAssembler(array){
 
     let message = "";
     for(let i = 0; i < array.length; i++){
-      message += ` ${array[i] + 1}`
+      message += ` ${array[i] + 1}°`
 
     }
 
